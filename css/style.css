@@ -1,1 +1,37 @@
-@import url(base.css)
+@import url(base.css);
+
+/*
+
+# id
+. class
+
+https://css-tricks.com/snippets/css/complete-guide-grid/
+https://coolors.co/eaebed-009ddc-006989-a3bac3-007090
+
+
+*/
+:root{
+    --color1: rgb(247, 88, 88);
+    --color2: green;
+}
+
+
+div#headLogo{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 5%;
+    background-color: var(--color1);
+    padding: 1.5% 2.5% 1.5% 2.5%;
+    
+}
+
+nav#navBar{
+    display:grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: 3%;   
+    background-color: var(--color2);
+}
+
+a.menuItems{
+    text-align: center;
+}
