@@ -22,16 +22,13 @@ https://fontawesome.com/v4.7.0/icons/
 
 div#headLogo{
     display: grid;
-    grid-template-columns: 10% 85%;
-    grid-template-rows:10%;
+    grid-template-columns: 10% 90%;
     background-color: var(--color1);
-    padding: 1.5% 2.5% 1.5% 2.5%;
-    
+    padding: 2% 2% 2% 2%;
 }
 h1#nameLogo{
-    padding: 1%;
     text-align:left;
-    text-align:middle;
+    font-size: 9vh;
 }
 
 nav#navBar{
@@ -44,4 +41,3 @@ nav#navBar{
 a.menuItems{
     text-align: center;
 }
-
