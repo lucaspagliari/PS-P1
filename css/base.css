@@ -1,0 +1,16 @@
+@font-face{
+    font-family: CaviarDreams;
+    src: url(../fonts/CaviarDreams.ttf)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: inherit;
+    font-family: CaviarDreams;
+}
+
+h1{
+    margin: 100px;
+}
