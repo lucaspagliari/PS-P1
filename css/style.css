@@ -23,21 +23,24 @@ https://fontawesome.com/v4.7.0/icons/
 div#headLogo{
     display: grid;
     grid-template-columns: 10% 90%;
+    grid-template-rows: 90%;
     background-color: var(--color1);
-    padding: 2% 2% 2% 2%;
+    padding: 1% 1% 1% 1%;
 }
 h1#nameLogo{
     text-align:left;
-    font-size: 9vh;
+    font-size: 8vw;
 }
 
 nav#navBar{
     display:grid;
     grid-template-columns: repeat(4,auto);
-    grid-template-rows: 3%;   
-    background-color: var(--color2);
+    grid-template-rows: 5vh;   
+    background-color: var(--color4);
 }
 
 a.menuItems{
     text-align: center;
+    font-size:2vw;
+    padding: 2% 0% 2% 0%;
 }
