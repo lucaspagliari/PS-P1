@@ -18,11 +18,16 @@ https://coolors.co/eaebed-009ddc-006989-a3bac3-007090
 
 div#headLogo{
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 5%;
+    grid-template-columns: 5% 95%;
+    grid-template-rows:10%;
     background-color: var(--color1);
     padding: 1.5% 2.5% 1.5% 2.5%;
     
+}
+h1#nameLogo{
+    padding: 1%;
+    text-align:left;
+    text-align:middle;
 }
 
 nav#navBar{
@@ -34,4 +39,8 @@ nav#navBar{
 
 a.menuItems{
     text-align: center;
+}
+
+div#banner{
+    
 }
