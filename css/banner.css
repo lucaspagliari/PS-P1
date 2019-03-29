@@ -9,7 +9,6 @@
 div.movieBanner{
     position: relative;
     display: inline-block;
-    max-width: 70%;
 }
 
 img.movieCover{
@@ -21,7 +20,7 @@ h1.movieTitle{
     position: absolute;
     display: inline-block;
     box-sizing: content-box;
-    top: 35%;
+    top: 55%;
     left: 50%;
     width: 60%;
     cursor: pointer;
@@ -40,14 +39,12 @@ h1.movieTitle:hover {
     box-sizing: content-box;
     letter-spacing: 1.2vw;
     padding: 3% 6% 3% 6%;
-    border-radius: 5px;
-    
+    border-radius: 5px;  
 }
-
 
 div.boxShopButton{
     position: absolute;
-    top: 80%;
+    top: 100%;
     left: 50%;
     transform: translate( -50%, -50% );
     color: var(--color2);
