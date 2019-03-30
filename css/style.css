@@ -1,14 +1,4 @@
-@import url(base.css);
 @import url(banner.css);
-
-/*
-# id
-. class
-
-https://css-tricks.com/snippets/css/complete-guide-grid/
-https://cssicon.space/#/
-https://fontawesome.com/v4.7.0/icons/
-*/
 
 :root{
     --color1: rgb(247, 88, 88);
@@ -44,15 +34,14 @@ nav#navBar{
 
 a.menuItems{
     text-align: center;
+    align-self: center;
     font-size:2vw;
-    padding: 2% 0% 2% 0%;
 }
 
 div#content{
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: repeat(3, 400px);
-    grid-gap: 1px;
+    grid-template-rows: repeat(3, 350px);
 }
 
 div.moviesBanner{
