@@ -1,0 +1,61 @@
+@import url("base.css");
+
+*{
+	text-align: center;
+}
+
+div.main{
+	display: grid;
+	grid-template-columns: repeat(10, 10%);
+	grid-template-rows: repeat(10, 100px);
+}
+
+div.pageHeader{
+	grid-column: 1 / 11;
+	grid-row: 1 / 4; 
+	background-size: 100% auto;
+}
+
+h1.movieTitle{
+	margin-top: 8%;
+	font-size: 5vw;
+	letter-spacing: 25px;
+	color: white;
+}
+
+div.movieTrailer{
+	margin-left: 5%;
+	grid-column: 1 / 6;
+	grid-row: 5 / 9;
+}
+
+h1.aboutTitle{
+	grid-column: 2 / 10; 
+	grid-row: 4 / 5;
+	font-size: 3vw;
+	align-self: center;
+}
+
+div.about{
+	grid-column: 6 / 11;
+	grid-row: 5 / 9;
+	margin: 0 5% 0 5%;
+}
+
+p#aboutText{
+	font-size: 1.7vw;
+	text-align: justify;
+}
+
+h1.rating{
+	grid-column: 2 / 10; 
+	grid-row: 9 / 10 ;
+	font-size: 3vw;
+	align-self: center;
+}
+
+div.ratingValue{
+	grid-column: 4 / 8; 
+	grid-row: 10 / 11;
+
+}
