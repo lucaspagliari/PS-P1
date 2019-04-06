@@ -20,10 +20,6 @@ h1#nameLogo{
     font-size: 8vw;
 }
 
-div#menu{
-    position: sticky;
-    top: 0;
-}
 
 nav#navBar{
     display:grid;
@@ -63,9 +59,9 @@ div#sideBanner{
     background-color: var(--color4);
 }
 
-div#footerContent{
+footer#footerContent{
     display: grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(4, 25%);
     grid-template-rows: 10vh;
     background-color: var(--color1);
     padding: 20%,0,0,0;
