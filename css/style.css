@@ -66,6 +66,7 @@ div#sideBanner{
 div#footerContent{
     display: grid;
     grid-template-columns: repeat(4, auto);
-    grid-template-rows: repeat(4, 5vh);
+    grid-template-rows: 10vh;
     background-color: var(--color1);
+    padding: 20%,0,0,0;
 }
