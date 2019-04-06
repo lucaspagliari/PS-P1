@@ -1,10 +1,10 @@
 @import url(banner.css);
 
 :root{
-    --color1: rgb(247, 88, 88);
+    --color1: rgb(237, 242, 244);
     --color2: rgb(122, 191, 255);
     --color3: rgb(175, 53, 175);
-    --color4: rgb(245, 216, 53);
+    --color4: rgb(141, 153, 174);
 }
 
 div#headLogo{
