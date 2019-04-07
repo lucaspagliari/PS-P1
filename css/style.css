@@ -1,10 +1,11 @@
 @import url(banner.css);
+@import url(navbar.css);
 
 :root{
     --color1: rgb(237, 242, 244);
     --color2: rgb(122, 191, 255);
     --color3: rgb(175, 53, 175);
-    --color4: rgb(141, 153, 174);
+    --color4: rgb(75, 77, 87);
 }
 
 div#headLogo{
@@ -18,20 +19,6 @@ div#headLogo{
 h1#nameLogo{
     text-align:left;
     font-size: 8vw;
-}
-
-
-nav#navBar{
-    display:grid;
-    grid-template-columns: repeat(4,auto);
-    grid-template-rows: 5vh;   
-    background-color: var(--color4);
-}
-
-a.menuItems{
-    text-align: center;
-    align-self: center;
-    font-size:2vw;
 }
 
 div#content{
@@ -57,6 +44,18 @@ div#sideBanner{
     grid-column: 2 / 3;
     grid-row: 1 / 4;
     background-color: var(--color4);
+    grid-template-rows: repeat(6, 16.66%);
+}
+
+img.userPhoto{
+    display: block;
+    margin-left: 33%;
+}
+
+p.userText{ 
+    text-align: center;
+    font-family: CaviarDreamsItalic;
+    margin-top: 90px;
 }
 
 footer#footerContent{
@@ -64,5 +63,11 @@ footer#footerContent{
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: 10vh;
     background-color: var(--color1);
-    padding: 20%,0,0,0;
+}
+
+a.footerItems{
+    color: black;
+    text-align: center;
+    align-self: center;
+    font-size:2vw;
 }

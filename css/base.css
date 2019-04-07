@@ -4,6 +4,11 @@
     src: url(../fonts/CaviarDreams.ttf)
 }
 
+@font-face{
+    font-family: CaviarDreamsItalic;
+    src: url(../fonts/CaviarDreams_Italic.ttf)
+}
+
 *{
     margin: 0;
     padding: 0;
