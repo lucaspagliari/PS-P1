@@ -35,7 +35,7 @@
                     </h1>
                 </div>
                 <div class="boxShopButton">
-                    <a class="shopButton" href="">Shop Now</a>
+                    <a class="shopButton" >Shop Now</a>
                 </div>
             </div>
             
@@ -52,7 +52,7 @@
                 </h1>
             </div>
             <div class="boxShopButton">
-                <a class="shopButton" href="">Shop Now</a>
+                <a class="shopButton" >Shop Now</a>
             </div>
         </div>
 
@@ -66,7 +66,7 @@
                 </h1>
             </div>
             <div class="boxShopButton">
-                <a class="shopButton" href="">Shop Now</a>
+                <a class="shopButton" >Shop Now</a>
             </div>
         </div>
 
@@ -100,5 +100,17 @@
             <img src="images/ingresso.png" alt="imgfooter" height="100%" style="margin-left: 100px">
         </div>
     </footer>
+
+    <script>
+        let itens = document.getElementsByClassName("shopButton");
+        
+        function alertar(){
+            alert("This function still not implemented");
+        }
+        
+        for (let i = 0; i < itens.length; i++) {
+            itens[i].addEventListener("click", alertar);   
+        }
+    </script>
 </body>
 </html>
