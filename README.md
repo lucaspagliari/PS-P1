@@ -7,3 +7,5 @@ Aprender mais a fundo as ferramentas HTML5 e CSS, utilizando filmes como tema ba
 ### Desenvolvido por:
 * [Lucas Pagliari](https://github.com/lucaspagliari)
 * [Pedro Bastos](https://github.com/nadsse)
+
+Veja o resultado [aqui](https://lucaspagliari.github.io/PS-P1/)  
