@@ -1,4 +1,8 @@
-/* Default CSS, imported in all other css files */
+/* 
+    Arquivo CSS padrão, utilizado em todas as páginas 
+*/
+
+/* Definindo fontes */
 @font-face{
     font-family: CaviarDreams;
     src: url(../fonts/CaviarDreams.ttf)
@@ -9,6 +13,7 @@
     src: url(../fonts/CaviarDreams_Italic.ttf)
 }
 
+/* Zerando Definições Padrões do Html  */
 *{
     margin: 0;
     padding: 0;

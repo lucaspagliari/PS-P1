@@ -1,3 +1,7 @@
+/* 
+    CSS para barra de navegação, utilizado em todas páginas
+*/
+
 nav#navBar{
     display:grid;
     grid-template-columns: repeat(4,auto);

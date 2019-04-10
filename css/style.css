@@ -1,6 +1,10 @@
 @import url(banner.css);
 @import url(navbar.css);
 
+/* 
+    Style Página Index
+*/
+
 :root{
     --color1: rgb(237, 242, 244);
     --color2: rgb(122, 191, 255);
